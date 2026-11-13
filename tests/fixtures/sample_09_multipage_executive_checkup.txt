@@ -1,0 +1,22 @@
+==============================================================================
+  TATA 1MG DIAGNOSTICS, GURUGRAM
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_09      Date: 2026-11-08
+Age / Gender : 52 Y / Female             Ref By: Executive Annual Screening
+Department   : Comprehensive Health Screening
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Fasting Blood Sugar              108.0        mg/dL        70.0 - 100.0 *H*
+HbA1c                            5.9          %            4.0 - 5.6 *H*
+Serum Creatinine                 0.85         mg/dL        0.6 - 1.1
+Uric Acid                        5.2          mg/dL        2.6 - 6.0
+Total Cholesterol                215.0        mg/dL        125.0 - 200.0 *H*
+HDL Cholesterol                  46.0         mg/dL        40.0 - 60.0
+SGPT / ALT                       31.0         U/L          10.0 - 35.0
+Vitamin D (25-OH)                14.2         ng/mL        30.0 - 100.0 *L*
+Vitamin B12                      185.0        pg/mL        211.0 - 911.0 *L*
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

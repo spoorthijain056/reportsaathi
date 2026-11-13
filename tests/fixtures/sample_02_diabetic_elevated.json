@@ -1,0 +1,48 @@
+{
+  "id": "sample_02_diabetic_elevated",
+  "title": "Diabetic Panel - Elevated Glycated Hemoglobin & Fasting Sugar",
+  "lab_name": "National PathLabs, New Delhi",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_02",
+    "age": 63,
+    "gender": "Male",
+    "ref_by": "Dr. R. Verma, MBBS"
+  },
+  "date": "2026-10-18",
+  "test_category": "Clinical Biochemistry / Diabetes Profile",
+  "expected_status": "SLIGHTLY_ELEVATED",
+  "biomarkers": [
+    {
+      "test_name": "HbA1c (Glycosylated Hemoglobin)",
+      "observed_value": 7.6,
+      "unit": "%",
+      "min_reference": 4.0,
+      "max_reference": 5.6,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Estimated Average Glucose (eAG)",
+      "observed_value": 171.0,
+      "unit": "mg/dL",
+      "min_reference": 70.0,
+      "max_reference": 126.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Fasting Blood Glucose",
+      "observed_value": 142.0,
+      "unit": "mg/dL",
+      "min_reference": 70.0,
+      "max_reference": 100.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Post-Prandial Glucose (PP)",
+      "observed_value": 210.0,
+      "unit": "mg/dL",
+      "min_reference": 80.0,
+      "max_reference": 140.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    }
+  ]
+}

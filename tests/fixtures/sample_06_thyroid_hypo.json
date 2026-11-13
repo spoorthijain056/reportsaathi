@@ -1,0 +1,40 @@
+{
+  "id": "sample_06_thyroid_hypo",
+  "title": "Thyroid Profile - Elevated TSH (Hypothyroidism Pattern)",
+  "lab_name": "Apollo Diagnostics, Kolkata",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_06",
+    "age": 36,
+    "gender": "Female",
+    "ref_by": "Dr. M. Banerjee, MD"
+  },
+  "date": "2026-11-01",
+  "test_category": "Endocrinology Panel",
+  "expected_status": "SLIGHTLY_ELEVATED",
+  "biomarkers": [
+    {
+      "test_name": "TSH (Thyroid Stimulating Hormone)",
+      "observed_value": 8.45,
+      "unit": "uIU/mL",
+      "min_reference": 0.35,
+      "max_reference": 4.94,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Free T3",
+      "observed_value": 2.1,
+      "unit": "pg/mL",
+      "min_reference": 1.7,
+      "max_reference": 3.7,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Free T4",
+      "observed_value": 0.72,
+      "unit": "ng/dL",
+      "min_reference": 0.7,
+      "max_reference": 1.48,
+      "expected_status": "NORMAL"
+    }
+  ]
+}

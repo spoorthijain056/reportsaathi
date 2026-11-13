@@ -1,0 +1,48 @@
+{
+  "id": "sample_03_kft_kidney_abnormal",
+  "title": "Renal Function Test (RFT/KFT) - Elevated Creatinine & Urea",
+  "lab_name": "Metropolis Healthcare, Mumbai",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_03",
+    "age": 71,
+    "gender": "Male",
+    "ref_by": "Dr. A. K. Joshi, MD"
+  },
+  "date": "2026-10-22",
+  "test_category": "Renal Function Panel",
+  "expected_status": "ELEVATED",
+  "biomarkers": [
+    {
+      "test_name": "Serum Creatinine",
+      "observed_value": 1.85,
+      "unit": "mg/dL",
+      "min_reference": 0.7,
+      "max_reference": 1.2,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Blood Urea Nitrogen (BUN)",
+      "observed_value": 34.0,
+      "unit": "mg/dL",
+      "min_reference": 7.0,
+      "max_reference": 20.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Serum Uric Acid",
+      "observed_value": 8.4,
+      "unit": "mg/dL",
+      "min_reference": 3.5,
+      "max_reference": 7.2,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Estimated GFR (eGFR)",
+      "observed_value": 41.0,
+      "unit": "mL/min/1.73m2",
+      "min_reference": 60.0,
+      "max_reference": 120.0,
+      "expected_status": "BELOW_NORMAL"
+    }
+  ]
+}

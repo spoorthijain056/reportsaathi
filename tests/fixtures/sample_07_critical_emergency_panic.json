@@ -1,0 +1,43 @@
+{
+  "id": "sample_07_critical_emergency_panic",
+  "title": "CRITICAL EMERGENCY PANEL - Life-Threatening Thrombocytopenia & Severe Anemia",
+  "lab_name": "Emergency Diagnostic Core, AIIMS Satellite Lab",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_07",
+    "age": 28,
+    "gender": "Male",
+    "ref_by": "Dr. Casualty In-Charge"
+  },
+  "date": "2026-11-03",
+  "test_category": "Emergency Acute Hematology",
+  "expected_status": "CRITICAL_EMERGENCY",
+  "biomarkers": [
+    {
+      "test_name": "Platelet Count",
+      "observed_value": 14000,
+      "unit": "/uL",
+      "min_reference": 150000,
+      "max_reference": 450000,
+      "expected_status": "BELOW_NORMAL",
+      "critical_alert": true
+    },
+    {
+      "test_name": "Hemoglobin",
+      "observed_value": 5.4,
+      "unit": "g/dL",
+      "min_reference": 13.0,
+      "max_reference": 17.0,
+      "expected_status": "BELOW_NORMAL",
+      "critical_alert": true
+    },
+    {
+      "test_name": "Serum Potassium (K+)",
+      "observed_value": 6.8,
+      "unit": "mEq/L",
+      "min_reference": 3.5,
+      "max_reference": 5.0,
+      "expected_status": "ELEVATED",
+      "critical_alert": true
+    }
+  ]
+}

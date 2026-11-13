@@ -1,0 +1,17 @@
+==============================================================================
+  NATIONAL PATHLABS, NEW DELHI
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_02      Date: 2026-10-18
+Age / Gender : 63 Y / Male               Ref By: Dr. R. Verma, MBBS
+Department   : Clinical Biochemistry / Diabetes Profile
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+HbA1c (Glycosylated Hemoglobin)  7.6          %            4.0 - 5.6 *H*
+Estimated Average Glucose (eAG)  171.0        mg/dL        70.0 - 126.0 *H*
+Fasting Blood Glucose            142.0        mg/dL        70.0 - 100.0 *H*
+Post-Prandial Glucose (PP)       210.0        mg/dL        80.0 - 140.0 *H*
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

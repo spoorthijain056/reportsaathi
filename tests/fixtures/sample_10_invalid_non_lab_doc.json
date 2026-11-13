@@ -1,0 +1,16 @@
+{
+  "id": "sample_10_invalid_non_lab_doc",
+  "title": "NON-LAB INVALID DOCUMENT (Doctor Prescription & Pharmacy Invoice)",
+  "lab_name": "City Clinic & Pharmacy Counter",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_10",
+    "age": 45,
+    "gender": "Male",
+    "ref_by": "Self"
+  },
+  "date": "2026-11-10",
+  "test_category": "Outpatient Prescription / Non-Diagnostic",
+  "expected_status": "REJECTED_NON_LAB_DOCUMENT",
+  "raw_text": "Rx:\nTab Metformin 500mg - 1-0-1 after food\nTab Telmisartan 40mg - 1-0-0 morning\nCap Omeprazole 20mg - 1-0-0 before food\nFollow up after 15 days.\nTotal Bill: Rs. 450/- Paid.",
+  "biomarkers": []
+}

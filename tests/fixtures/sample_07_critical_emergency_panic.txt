@@ -1,0 +1,16 @@
+==============================================================================
+  EMERGENCY DIAGNOSTIC CORE, AIIMS SATELLITE LAB
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_07      Date: 2026-11-03
+Age / Gender : 28 Y / Male               Ref By: Dr. Casualty In-Charge
+Department   : Emergency Acute Hematology
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Platelet Count                   14000        /uL          150000 - 450000 *CRITICAL*
+Hemoglobin                       5.4          g/dL         13.0 - 17.0 *CRITICAL*
+Serum Potassium (K+)             6.8          mEq/L        3.5 - 5.0 *CRITICAL*
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

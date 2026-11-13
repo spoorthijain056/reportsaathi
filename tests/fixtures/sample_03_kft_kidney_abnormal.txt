@@ -1,0 +1,17 @@
+==============================================================================
+  METROPOLIS HEALTHCARE, MUMBAI
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_03      Date: 2026-10-22
+Age / Gender : 71 Y / Male               Ref By: Dr. A. K. Joshi, MD
+Department   : Renal Function Panel
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Serum Creatinine                 1.85         mg/dL        0.7 - 1.2 *H*
+Blood Urea Nitrogen (BUN)        34.0         mg/dL        7.0 - 20.0 *H*
+Serum Uric Acid                  8.4          mg/dL        3.5 - 7.2 *H*
+Estimated GFR (eGFR)             41.0         mL/min/1.73m2 60.0 - 120.0 *L*
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

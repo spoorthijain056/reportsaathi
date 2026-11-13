@@ -1,0 +1,19 @@
+==============================================================================
+  CITY CLINIC & PHARMACY COUNTER
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_10      Date: 2026-11-10
+Age / Gender : 45 Y / Male               Ref By: Self
+Department   : Outpatient Prescription / Non-Diagnostic
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Rx:
+Tab Metformin 500mg - 1-0-1 after food
+Tab Telmisartan 40mg - 1-0-0 morning
+Cap Omeprazole 20mg - 1-0-0 before food
+Follow up after 15 days.
+Total Bill: Rs. 450/- Paid.
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

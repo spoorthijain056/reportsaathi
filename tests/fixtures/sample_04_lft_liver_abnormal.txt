@@ -1,0 +1,18 @@
+==============================================================================
+  AGILUS DIAGNOSTICS, HYDERABAD
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_04      Date: 2026-10-25
+Age / Gender : 48 Y / Female             Ref By: Dr. P. Reddy, MS
+Department   : Hepatic Panel
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+SGPT / ALT                       78.0         U/L          10.0 - 40.0 *H*
+SGOT / AST                       64.0         U/L          10.0 - 35.0 *H*
+Total Bilirubin                  1.6          mg/dL        0.2 - 1.2 *H*
+Alkaline Phosphatase (ALP)       138.0        U/L          30.0 - 120.0 *H*
+Serum Albumin                    4.1          g/dL         3.5 - 5.0
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================
