@@ -1,0 +1,18 @@
+==============================================================================
+  DR LAL PATHLABS, CHENNAI
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_05      Date: 2026-10-27
+Age / Gender : 55 Y / Male               Ref By: Dr. V. Ramanathan, MD
+Department   : Lipid Panel
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Total Cholesterol                228.0        mg/dL        125.0 - 200.0 *H*
+Triglycerides                    195.0        mg/dL        50.0 - 150.0 *H*
+LDL Cholesterol                  148.0        mg/dL        60.0 - 100.0 *H*
+HDL Cholesterol                  41.0         mg/dL        40.0 - 60.0
+Non-HDL Cholesterol              187.0        mg/dL        80.0 - 130.0 *H*
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

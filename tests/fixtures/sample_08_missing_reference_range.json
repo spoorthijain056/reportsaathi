@@ -1,0 +1,40 @@
+{
+  "id": "sample_08_missing_reference_range",
+  "title": "Serum Electrolytes & Specific Markers - Missing Lab Reference Ranges",
+  "lab_name": "Regional Diagnostic Trust, Lucknow",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_08",
+    "age": 60,
+    "gender": "Female",
+    "ref_by": "Dr. V. K. Srivastava"
+  },
+  "date": "2026-11-05",
+  "test_category": "Specialized Biochemical Markers",
+  "expected_status": "RANGE_UNAVAILABLE",
+  "biomarkers": [
+    {
+      "test_name": "Serum Sodium (Na+)",
+      "observed_value": 138.0,
+      "unit": "mEq/L",
+      "min_reference": null,
+      "max_reference": null,
+      "expected_status": "RANGE_UNAVAILABLE"
+    },
+    {
+      "test_name": "Serum Chloride (Cl-)",
+      "observed_value": 101.0,
+      "unit": "mEq/L",
+      "min_reference": null,
+      "max_reference": null,
+      "expected_status": "RANGE_UNAVAILABLE"
+    },
+    {
+      "test_name": "C-Reactive Protein (CRP)",
+      "observed_value": 12.5,
+      "unit": "mg/L",
+      "min_reference": 0.0,
+      "max_reference": 5.0,
+      "expected_status": "ELEVATED"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReportSaathi | Understand Your Reports</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f6fb;color:#17243b}
+header{background:#123b65;color:white;padding:22px 8%;font-size:25px;font-weight:bold}
+main{max-width:850px;margin:55px auto;padding:20px}
+.hero{text-align:center;margin-bottom:30px}
+.hero h1{font-size:34px;color:#123b65}
+.hero p{color:#64748b;line-height:1.6}
+.panel{background:white;padding:30px;border-radius:15px;box-shadow:0 5px 25px #102b4b12}
+input,button{width:100%;padding:14px;margin-top:15px;border-radius:8px}
+input{border:1px solid #cbd5e1}
+button{border:0;background:#1264a3;color:white;font-size:16px;font-weight:bold;cursor:pointer}
+button:disabled{opacity:.6;cursor:wait}
+#status{margin-top:18px;line-height:1.6}
+#result{display:none;margin-top:25px;background:#f8fafc;padding:20px;border-radius:10px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.6}
+.notice{font-size:13px;color:#8a5310;background:#fff6df;padding:13px;border-radius:8px;margin-top:20px}
+</style>
+</head>
+<body>
+<header>ReportSaathi</header>
+<main>
+<section class="hero">
+<h1>Understand Your Medical Reports</h1>
+<p>Upload a medical PDF and extract its text in one simple step.</p>
+</section>
+<section class="panel">
+<h2>Upload Medical Report</h2>
+<p>Select a PDF file to begin.</p>
+<input type="file" id="file" accept=".pdf,application/pdf">
+<button id="upload">Upload and Extract Report</button>
+<div id="status" role="status"></div>
+<div id="result">
+<h3>Extracted Report Information</h3>
+<p id="summary"></p>
+<pre id="output"></pre>
+</div>
+<div class="notice">
+<strong>Medical disclaimer:</strong> This application extracts report text only. It does not provide a diagnosis or treatment advice. Verify all values against the original report and consult a qualified healthcare professional.
+</div>
+</section>
+</main>
+<script>
+const button=document.getElementById("upload");
+button.addEventListener("click",async()=>{
+ const file=document.getElementById("file").files[0];
+ const status=document.getElementById("status");
+ const result=document.getElementById("result");
+ if(!file){status.textContent="Please select a PDF file.";return;}
+ if(file.type!=="application/pdf"){status.textContent="Please select a valid PDF.";return;}
+ const form=new FormData();
+ form.append("file",file);
+ button.disabled=true;
+ status.textContent="Uploading and extracting text...";
+ result.style.display="none";
+ try{
+  const response=await fetch("/api/analyze",{method:"POST",body:form});
+  const data=await response.json();
+  if(!response.ok)throw new Error(data.detail||"Upload failed");
+  document.getElementById("summary").textContent=
+   "File: "+data.filename+" | Pages: "+data.total_pages+" | "+data.message;
+  document.getElementById("output").textContent=data.extracted_text;
+  result.style.display="block";
+  status.textContent="Report uploaded and processed successfully!";
+ }catch(error){
+  status.textContent="Error: "+error.message;
+ }finally{
+  button.disabled=false;
+ }
+});
+</script>
+</body>
+</html>

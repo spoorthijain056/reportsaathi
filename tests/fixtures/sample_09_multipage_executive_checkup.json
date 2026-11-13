@@ -1,0 +1,88 @@
+{
+  "id": "sample_09_multipage_executive_checkup",
+  "title": "Multi-Panel Comprehensive Executive Health Checkup (Multi-Page)",
+  "lab_name": "Tata 1mg Diagnostics, Gurugram",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_09",
+    "age": 52,
+    "gender": "Female",
+    "ref_by": "Executive Annual Screening"
+  },
+  "date": "2026-11-08",
+  "test_category": "Comprehensive Health Screening",
+  "expected_status": "MIXED_PARAMETERS",
+  "biomarkers": [
+    {
+      "test_name": "Fasting Blood Sugar",
+      "observed_value": 108.0,
+      "unit": "mg/dL",
+      "min_reference": 70.0,
+      "max_reference": 100.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "HbA1c",
+      "observed_value": 5.9,
+      "unit": "%",
+      "min_reference": 4.0,
+      "max_reference": 5.6,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "Serum Creatinine",
+      "observed_value": 0.85,
+      "unit": "mg/dL",
+      "min_reference": 0.6,
+      "max_reference": 1.1,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Uric Acid",
+      "observed_value": 5.2,
+      "unit": "mg/dL",
+      "min_reference": 2.6,
+      "max_reference": 6.0,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Total Cholesterol",
+      "observed_value": 215.0,
+      "unit": "mg/dL",
+      "min_reference": 125.0,
+      "max_reference": 200.0,
+      "expected_status": "SLIGHTLY_ELEVATED"
+    },
+    {
+      "test_name": "HDL Cholesterol",
+      "observed_value": 46.0,
+      "unit": "mg/dL",
+      "min_reference": 40.0,
+      "max_reference": 60.0,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "SGPT / ALT",
+      "observed_value": 31.0,
+      "unit": "U/L",
+      "min_reference": 10.0,
+      "max_reference": 35.0,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Vitamin D (25-OH)",
+      "observed_value": 14.2,
+      "unit": "ng/mL",
+      "min_reference": 30.0,
+      "max_reference": 100.0,
+      "expected_status": "BELOW_NORMAL"
+    },
+    {
+      "test_name": "Vitamin B12",
+      "observed_value": 185.0,
+      "unit": "pg/mL",
+      "min_reference": 211.0,
+      "max_reference": 911.0,
+      "expected_status": "BELOW_NORMAL"
+    }
+  ]
+}

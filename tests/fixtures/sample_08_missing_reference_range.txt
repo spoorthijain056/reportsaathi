@@ -1,0 +1,16 @@
+==============================================================================
+  REGIONAL DIAGNOSTIC TRUST, LUCKNOW
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_08      Date: 2026-11-05
+Age / Gender : 60 Y / Female             Ref By: Dr. V. K. Srivastava
+Department   : Specialized Biochemical Markers
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+Serum Sodium (Na+)               138.0        mEq/L        NOT SPECIFIED
+Serum Chloride (Cl-)             101.0        mEq/L        NOT SPECIFIED
+C-Reactive Protein (CRP)         12.5         mg/L         0.0 - 5.0
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

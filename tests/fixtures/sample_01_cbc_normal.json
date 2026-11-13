@@ -1,0 +1,64 @@
+{
+  "id": "sample_01_cbc_normal",
+  "title": "Complete Blood Count (CBC) - All Normal Parameters",
+  "lab_name": "Apex Diagnostic Centre, Bengaluru (NABL Accredited)",
+  "patient": {
+    "name": "ANONYMOUS_PATIENT_01",
+    "age": 42,
+    "gender": "Female",
+    "ref_by": "Dr. S. K. Sharma, MD"
+  },
+  "date": "2026-10-15",
+  "test_category": "Hematology / Complete Hemogram",
+  "expected_status": "ALL_NORMAL",
+  "biomarkers": [
+    {
+      "test_name": "Hemoglobin",
+      "observed_value": 13.2,
+      "unit": "g/dL",
+      "min_reference": 12.0,
+      "max_reference": 15.0,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Total Leukocyte Count (WBC)",
+      "observed_value": 7200,
+      "unit": "/uL",
+      "min_reference": 4000,
+      "max_reference": 11000,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "RBC Count",
+      "observed_value": 4.5,
+      "unit": "million/uL",
+      "min_reference": 3.8,
+      "max_reference": 4.8,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Platelet Count",
+      "observed_value": 240000,
+      "unit": "/uL",
+      "min_reference": 150000,
+      "max_reference": 450000,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Packed Cell Volume (PCV)",
+      "observed_value": 39.5,
+      "unit": "%",
+      "min_reference": 36.0,
+      "max_reference": 46.0,
+      "expected_status": "NORMAL"
+    },
+    {
+      "test_name": "Mean Corpuscular Volume (MCV)",
+      "observed_value": 88.0,
+      "unit": "fL",
+      "min_reference": 80.0,
+      "max_reference": 100.0,
+      "expected_status": "NORMAL"
+    }
+  ]
+}

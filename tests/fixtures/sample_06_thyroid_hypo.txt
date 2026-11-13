@@ -1,0 +1,16 @@
+==============================================================================
+  APOLLO DIAGNOSTICS, KOLKATA
+  Accredited Diagnostic Clinical Laboratory Services
+==============================================================================
+Patient Name : ANONYMOUS_PATIENT_06      Date: 2026-11-01
+Age / Gender : 36 Y / Female             Ref By: Dr. M. Banerjee, MD
+Department   : Endocrinology Panel
+------------------------------------------------------------------------------
+TEST PARAMETER                   RESULT       UNIT         REFERENCE INTERVAL
+------------------------------------------------------------------------------
+TSH (Thyroid Stimulating Hormone) 8.45         uIU/mL       0.35 - 4.94 *H*
+Free T3                          2.1          pg/mL        1.7 - 3.7
+Free T4                          0.72         ng/dL        0.7 - 1.48
+------------------------------------------------------------------------------
+End of Report. Validated by Chief Pathologist & Biochemist.
+==============================================================================

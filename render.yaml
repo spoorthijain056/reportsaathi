@@ -1,0 +1,24 @@
+name: ReportSaathi
+onPush:
+  branch: main
+services:
+  - type: web
+    name: backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    autoDeploy: true
+    routes:
+      - type: http
+        path: /
+        targetPort: 8000
+  - type: static
+    name: frontend
+    env: static
+    staticPublishPath: ./frontend
+    plan: free
+    autoDeploy: true
+    routes:
+      - type: http
+        path: /
+        targetPort: 8080
