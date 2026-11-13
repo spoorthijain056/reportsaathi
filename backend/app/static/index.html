@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReportSaathi Health Check</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 2rem;}
+        #status {font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>Backend Health</h1>
+    <div id="output">Loading...</div>
+    <script>
+        fetch('/api/health')
+            .then(r => r.json())
+            .then(data => {
+                const out = document.getElementById('output');
+                out.innerHTML = `Status: <span id="status">${data.status}</span><br/>Version: ${data.version}<br/>DB Value: ${data.db_value}`;
+            })
+            .catch(err => {
+                document.getElementById('output').innerText = 'Error contacting backend';
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
