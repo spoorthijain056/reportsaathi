@@ -11,3 +11,13 @@ node_modules/
 .ruff_cache/
 dist/
 build/
+.venv/
+.venv311/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+frontend/.venv/
+frontend/.github/
+frontend/backend/
+frontend/docs/
